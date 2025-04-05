@@ -8,8 +8,6 @@ class Solution:
                 max_v += 1
         curr_v = max_v       
         for i in range(k,n):
-            if max_v == k:
-                return k
             if s[i-k] in vowel:
                 curr_v -= 1
             if s[i] in vowel:
