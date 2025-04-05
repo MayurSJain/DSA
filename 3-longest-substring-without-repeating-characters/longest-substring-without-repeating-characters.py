@@ -11,7 +11,6 @@ class Solution:
             while j<=n:
                 news = s[i:j+1]
                 alpha = set(news)
-                print(news)
                 t = len(alpha)
                 if t == len(news) and t > maxs:
                     maxs = t
