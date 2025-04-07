@@ -3,8 +3,8 @@ class Solution:
         
         n,m = len(word1), len(word2)
         ans = ""
-
-        for i in range(max(len(word1),len(word2))):
+        maxs = max(n,m)
+        for i in range(maxs):
             if i < n: ans+=word1[i]
             if i < m: ans+=word2[i]
         
